@@ -10,15 +10,8 @@
   margin-left: 250px;
 }
 
-.redpin {
-  position: absolute;
-  z-index: 2;
-  margin-top: -1215px;
-  margin-left: 400px;
-}
-
 .deadlift {
-  position: absolute;
+  position: relative;
   z-index: 1;
   margin-top: -995px;
   margin-left: 382px;
@@ -29,4 +22,11 @@
 .deadlift img {
   width: 100%;
   height: auto;
+}
+
+.redpin {
+  position: absolute;
+  z-index: 2;
+  margin-top: -1215px;
+  margin-left: 400px;
 }
