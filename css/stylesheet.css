@@ -1,0 +1,32 @@
+.corkboard {
+  position: relative;
+  z-index: 0;
+}
+
+.polaroid {
+  position: absolute;
+  z-index: 1;
+  margin-top: -1100px;
+  margin-left: 250px;
+}
+
+.redpin {
+  position: absolute;
+  z-index: 2;
+  margin-top: -1215px;
+  margin-left: 400px;
+}
+
+.deadlift {
+  position: absolute;
+  z-index: 1;
+  margin-top: -995px;
+  margin-left: 382px;
+  width: 640px;
+  height: 700px;
+}
+
+.deadlift img {
+  width: 100%;
+  height: auto;
+}
